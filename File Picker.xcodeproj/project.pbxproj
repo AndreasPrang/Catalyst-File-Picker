@@ -23,6 +23,7 @@
 		BF70ADCE24AE928C00830998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF70ADD424AE92A600830998 /* DocumentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPicker.swift; sourceTree = "<group>"; };
 		BF70ADD624AE92B400830998 /* File Picker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "File Picker.entitlements"; sourceTree = "<group>"; };
+		BF765BED24B8EC7A00976E13 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +40,7 @@
 		BF70ADB924AE928B00830998 = {
 			isa = PBXGroup;
 			children = (
+				BF765BED24B8EC7A00976E13 /* README.md */,
 				BF70ADC424AE928B00830998 /* File Picker */,
 				BF70ADC324AE928B00830998 /* Products */,
 			);
