@@ -11,6 +11,7 @@
 		BF70ADC824AE928B00830998 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF70ADC724AE928B00830998 /* ContentView.swift */; };
 		BF70ADCA24AE928C00830998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF70ADC924AE928C00830998 /* Assets.xcassets */; };
 		BF70ADCD24AE928C00830998 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF70ADCC24AE928C00830998 /* Preview Assets.xcassets */; };
+		BF70ADD524AE92A600830998 /* DocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF70ADD424AE92A600830998 /* DocumentPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,8 @@
 		BF70ADC924AE928C00830998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF70ADCC24AE928C00830998 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF70ADCE24AE928C00830998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF70ADD424AE92A600830998 /* DocumentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPicker.swift; sourceTree = "<group>"; };
+		BF70ADD624AE92B400830998 /* File Picker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "File Picker.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +55,10 @@
 		BF70ADC424AE928B00830998 /* File Picker */ = {
 			isa = PBXGroup;
 			children = (
+				BF70ADD624AE92B400830998 /* File Picker.entitlements */,
 				BF70ADC524AE928B00830998 /* File_PickerApp.swift */,
 				BF70ADC724AE928B00830998 /* ContentView.swift */,
+				BF70ADD424AE92A600830998 /* DocumentPicker.swift */,
 				BF70ADC924AE928C00830998 /* Assets.xcassets */,
 				BF70ADCE24AE928C00830998 /* Info.plist */,
 				BF70ADCB24AE928C00830998 /* Preview Content */,
@@ -139,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF70ADC824AE928B00830998 /* ContentView.swift in Sources */,
+				BF70ADD524AE92A600830998 /* DocumentPicker.swift in Sources */,
 				BF70ADC624AE928B00830998 /* File_PickerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +273,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "File Picker/File Picker.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"File Picker/Preview Content\"";
 				DEVELOPMENT_TEAM = Y6ER5M2443;
@@ -279,6 +286,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "de.isolute.File-Picker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "File Picker/File Picker.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"File Picker/Preview Content\"";
 				DEVELOPMENT_TEAM = Y6ER5M2443;
@@ -301,6 +310,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "de.isolute.File-Picker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
